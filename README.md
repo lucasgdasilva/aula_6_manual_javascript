@@ -1,6 +1,7 @@
 # aula_6_manual_javascript
 
 SENAI JOINVILLE
+
 CURSO TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS
 
 Estudantes: Guilherme Schroeder, Lucas Gabriel da Silva e Lukas Fischer Stolle.
