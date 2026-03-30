@@ -5,6 +5,7 @@ SENAI JOINVILLE
 CURSO TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS
 
 Estudantes: Guilherme Schroeder, Lucas Gabriel da Silva e Lukas Fischer Stolle.
+
 Turma: T TDES 2024/1 M6
 
 Manual de estudos para JavaScript
