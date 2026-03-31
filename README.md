@@ -44,7 +44,9 @@ Declarar uma variável envolve definir um nome, escolher o tipo de dado (se nece
 - Diferença entre var, let e const
 
 var: Escopo de função ou global, pode ser redeclarado e reatribuído.
+
 let: Escopo de bloco {} (como if, loops), não pode ser redeclarado, mas pode ser reatribuído.
+
 const: Escopo de bloco, não pode ser redeclarado nem reatribuído (valor constante).
 
 Exemplos encontram-se na pasta "03_tipos_variaveis"
@@ -183,15 +185,15 @@ A propriedade .checked no JavaScript é uma forma de verificar ou alterar o esta
 
 - .style
 
-meu
+A propriedade .style no JavaScript permite modificar o CSS inline de elementos HTML dinamicamente. Ela acessa o objeto CSSStyleProperties de um elemento, exigindo que propriedades CSS compostas sejam escritas em camelCase (ex: backgroundColor) em vez de kebab-case. Modificações via .style têm precedência sobre estilos de classes CSS. 
 
 - classList
 
-seu
+seu lerdinho
 
 - addEventListener()
 
-meu
+O método addEventListener() em JavaScript é utilizado para anexar um manipulador de eventos (uma função de callback) a um elemento específico no DOM (Document Object Model). Ele "escuta" a ocorrência de um evento, como um clique ('click'), e executa a função definida quando o evento acontece. 
 
 
 
@@ -249,4 +251,8 @@ https://developer.mozilla.org/pt-BR/docs/Web/API/Document
 
 https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector
 
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/checked
 
+https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/DOM_scripting
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
