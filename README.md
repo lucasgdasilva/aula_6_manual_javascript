@@ -47,13 +47,127 @@ var: Escopo de função ou global, pode ser redeclarado e reatribuído.
 let: Escopo de bloco {} (como if, loops), não pode ser redeclarado, mas pode ser reatribuído.
 const: Escopo de bloco, não pode ser redeclarado nem reatribuído (valor constante).
 
+Exemplos encontram-se na pasta "03_tipos_variaveis"
+
 - Quando cada uma pode ser usada
 
+var (Legado): Evite em projetos novos. Útil apenas em códigos legados ou quando for estritamente necessário ter escopo de função. Permite redeclaração e sofre hoisting (comportamento do JavaScript de "mover" declarações de variáveis (var) e funções para o topo do seu escopo antes da execução do código. Isso permite  chamar funções ou usar variáveis antes da linha onde foram definidas) com valor undefined. 
+
+let (Variável de bloco): Use quando o valor precisar ser reatribuído ou alterado (ex: contadores em loops, estados condicionais). Tem escopo de bloco, sendo mais segura e previsível que var.
+
+const (Constante): Use sempre que o valor da variável não precisar ser alterado ao longo do código (ex: configurações, referências de bibliotecas). Deve ser inicializada na declaração.
+
+- O que é escopo global?
+
+O escopo global em programação refere-se à área mais ampla de um código onde variáveis, funções ou objetos são definidos fora de qualquer bloco específico, como funções, classes ou loops. Elementos no escopo global são visíveis, acessíveis e modificáveis de qualquer lugar do programa.
+
+- O que é escopo de função?
+
+Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código.
+
+- O que é escopo de bloco?
+
+O escopo de bloco no JavaScript restringe variáveis declaradas com let ou const dentro de chaves {} (como if, for, while) ao seu próprio bloco, impedindo o acesso externo. Ao contrário da var, que vaza para fora do bloco, o escopo de bloco melhora a organização e evita conflitos de nomes.
+
+Exemplos relacionados aos escopos também encontram-se na pasta "03_tipos_variaveis"
 
 
-- O que é escopo de uma variável?
+# 4. Operadores, comparações e lógica
 
-O escopo de uma variável é o contexto ou região do código onde ela é definida e pode ser acessada ou modificada, Compreender o escopo é fundamental para evitar bugs, gerenciar memória e organizar código. 
+- Operadores aritméticos principais
+
+Adição (+): Soma dois valores.
+Subtração (-): Subtrai o segundo valor do primeiro.
+Multiplicação (* ou ×): Multiplica dois valores.
+Divisão (/ ou ÷): Divide o primeiro valor pelo segundo.
+Módulo/Resto (% ou mod): Retorna o resto de uma divisão inteira.
+Exponenciação (^ ou **): Eleva um número a uma potência.
+
+- Operadores relacionais principais
+
+Os principais operadores relacionais (ou de comparação) no JavaScript, que retornam valores booleanos (true ou false), são: igualdade estrita (===), desigualdade estrita (!==), maior que (>), menor que (<), maior ou igual (>=) e menor ou igual (<=). Eles são fundamentais para estruturas condicionais e loops. 
+
+- Operadores lógicos principais
+
+Negação (NÃO / NOT / 
+ / !): Inverte o valor lógico. Se a proposição é Verdadeira, torna-se Falsa, e vice-versa 
+Conjunção (E / AND / 
+ / &&): Resulta em Verdadeiro apenas se todas as condições analisadas forem verdadeiras.
+Disjunção (OU / OR / 
+ / ||): Resulta em Verdadeiro se pelo menos uma das condições for verdadeira
+
+- Diferença entre == e ===
+
+== (Igualdade Solta/Abstrata): Compara se os valores são iguais, realizando conversão de tipo automaticamente. Ex: 1 == '1' é true.
+
+=== (Igualdade Estrita/Identidade): Compara se valor e tipo são idênticos. Ex: 1 === '1' é false porque um é number e outro é string. 
+
+- Diferença entre != e !==
+
+!= (Diferente): Compara se dois valores são diferentes, mas tenta converter os tipos para que fiquem iguais antes de comparar. Exemplo: 5 != "5" resulta em false porque, para o operador, os valores são considerados iguais.
+!== (Estritamente Diferente): Compara se dois valores são diferentes ou se os tipos de dados são diferentes. É uma verificação mais rigorosa. Exemplo: 5 !== "5" resulta em true porque, embora o valor seja o mesmo, um é número e o outro é uma string.
+
+# 5. Estruturas condicionais
+
+- if
+
+A estrutura if em JavaScript é uma condicional que executa um bloco de código apenas se uma determinada condição for verdadeira (true). Ela é fundamental para tomada de decisões no fluxo do programa, podendo ser expandida com else (caso falso) e else if (múltiplas condições).
+
+- if...else
+
+A estrutura if-else no Java é uma instrução condicional usada para tomar decisões. Ela avalia uma expressão booleana (verdadeira ou falsa): se for verdadeira, executa o bloco if; se for falsa, executa o bloco else.
+
+- switch
+A estrutura switch no Java é uma forma eficiente de controle de fluxo, usada para selecionar um entre vários blocos de código com base na igualdade de uma única expressão (variável).
+
+# 6. Estruturas de repetição
+
+- for
+
+O loop for no JavaScript é uma estrutura de repetição usada para executar um bloco de código várias vezes com base em uma condição, sendo ideal quando o número de iterações é conhecido. Sua sintaxe inclui inicialização, condição e incremento/decremento. É amplamente utilizado para percorrer arrays, strings e manipular dados repetitivos de forma eficiente
+
+- while
+
+Verificação: O programa verifica a condição no início.
+Execução: Se a condição for verdadeira, o bloco de código é executado.
+Repetição: Após a execução, o programa volta ao passo 1.
+Encerramento: Se a condição for falsa, o loop é interrompido e o programa segue adiante
+
+# 7. Funções
+
+- O que é uma função
+
+Uma função em JavaScript é um bloco de código reutilizável, projetado para realizar uma tarefa específica. Ela atua como um "subprograma", aceitando dados de entrada (parâmetros), processando-os e, opcionalmente, retornando um valor. Funções são essenciais para organizar, modularizar e evitar repetição de código (DRY).
+
+- Como declarar uma função
+
+Para declarar uma função (ou método) em Java, utilize a sintaxe: modificador tipoRetorno nomeDaFuncao(parametros) { corpo }. Ela deve ser definida dentro de uma classe, usando camelCase, com modificadores como public/private e static se for independente de objeto. Use void para funções sem retorno.
+
+- Como chamar uma função
+
+Para chamar uma função em JavaScript, utilize o nome dela seguido de parênteses (). Se a função exigir parâmetros, passe os valores dentro dos parênteses. A sintaxe básica é nomeDaFuncao();. Se a função retornar um valor, você pode armazená-lo em uma variável, ex: let resultado = soma(2, 3);.
+
+- Função com parâmetro
+
+Permitem receber dados externos para processamento. Eles são declarados entre parênteses no cabeçalho do método, definindo o tipo e o nome da variável. Ao chamar o método, os valores passados são copiados para os parâmetros, permitindo métodos flexíveis e reutilizáveis.
+
+- Função com retorno
+
+A declaração return finaliza a execução de uma função e especifica os valores que devem ser retonados para onde a função foi chamada.
+
+# 8.  Manipulação de página com JavaScript
+
+- document
+
+O document no JavaScript é um objeto global que representa a página HTML carregada no navegador. Ele faz parte do DOM (Document Object Model) e atua como a principal interface para manipular, criar, modificar ou remover elementos HTML e estilos de forma dinâmica e em tempo real. 
+
+- getElementById()
+
+seu
+
+
+
+
 
 
 
@@ -74,4 +188,41 @@ https://www.freecodecamp.org/portuguese/news/var-let-e-const-qual-e-a-diferenca/
 https://linguagemc.com.br/funcoes-e-escopo-de-variaveis/
 
 https://www.dio.me/articles/variaveis-javascript
+
+https://www.ibm.com/docs/pt-br/spss-statistics/cd?topic=charts-variable-types
+
+https://cursos.alura.com.br/forum/topico-diferencas-const-let-e-var-200251
+
+https://imasters.com.br/desenvolvimento/escopos-em-javascript#:~:text=Escopo%20%C3%A9%20a%20acessibilidade%20de,do%20c%C3%B3digo%20%C3%A9%20o%20escopo.
+
+https://www.ibm.com/docs/pt-br/cics-ts/5.6.0?topic=expressions-arithmetic-operators
+
+https://www.google.com/search?q=operadores+relacionais+principais+no+javascript&rlz=1C1RXQR_pt-PTBR1201BR1201&oq=operadores+relacionais+principais+no+javascript&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCDQwNjNqMGo5qAIAsAIB&sourceid=chrome&ie=UTF-8&safe=active&ssui=on
+
+https://www.estrategiaconcursos.com.br/blog/operadores-logicos-fundamentais/
+
+https://pt.stackoverflow.com/questions/3186/qual-a-diferen%C3%A7a-entre-operadores-e-em-javascript
+
+https://cursos.alura.com.br/forum/topico-qual-a-diferenca-de-e-achava-que-era-usada-somente-para-igual-e-para-diferente-132796#:~:text=resposta-,qual%20a%20diferen%C3%A7a%20de%20!=,para%20igual%20e%20=%20para%20diferente.&text=solu%C3%A7%C3%A3o!&text=s%C3%A3o%20operadores%20de%20compara%C3%A7%C3%A3o;%20comparam%20valores%20(e%20tipos).&text=compara%20se%20o%20valor%20de%20a%20%C3%A9%20igual%20ao%20valor%20de%20b.&text=compara%20se%20o%20valor%20de%20a%20%C3%A9%20diferente%20do%20valor,estas%20vari%C3%A1veis%20seriam%20comparativamente%20iguais.&text=J%C3%A1%20o%20terceiro%20e%20o,estas%20vari%C3%A1veis%20seriam%20comparativamente%20diferentes.&text=compara%20se%20o%20valor%20e,e%20ao%20tipo%20de%20b.
+
+https://www.devmedia.com.br/javascript-if-else-criando-scripts-com-estruturas-condicionais/39686
+
+https://www.rocketseat.com.br/blog/artigos/post/estruturas-condicionais-java-guia-iniciantes
+
+https://www.dio.me/articles/como-usar-switch-case-no-java
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for#:~:text=Usando%20for%20A%20declara%C3%A7%C3%A3o%20for%20come%C3%A7a%20declarando,vari%C3%A1vel%20i%20ap%C3%B3s%20cada%20passagem%20pelo%20loop.
+
+https://blog.formacao.dev/while-e-do-while/
+
+https://www.rocketseat.com.br/blog/artigos/post/funcoes-em-javascript-guia-completo
+
+https://pet-comp-ufsc.github.io/tutorials/langs/java/functions/defining.html
+
+https://www.ibm.com/docs/pt-br/db2/11.5.x?topic=routines-parameter-style-java-functions
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/return
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document
+
 
