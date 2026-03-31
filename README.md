@@ -211,68 +211,98 @@ O método addEventListener() em JavaScript é utilizado para anexar um manipulad
 
 # Referências:
 
-https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+MDN Web Docs. What is JavaScript?. Disponível em: https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions
+MDN Web Docs. Functions. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions
+. Acesso em: 31 mar. 2026.
 
-https://vivendodeprogramacao.com.br/como-separar-o-javascript-do-html#:~:text=Guia%20para%20Iniciantes-,Por%20que%20separar%20o%20JavaScript%20do%20HTML?,em%20cache%2C%20melhorando%20o%20desempenho.
+Vivendo de Programação. Como separar o JavaScript do HTML. Disponível em: https://vivendodeprogramacao.com.br/como-separar-o-javascript-do-html
+. Acesso em: 31 mar. 2026.
 
-https://learn.microsoft.com/pt-br/office/vba/language/concepts/getting-started/declaring-variables
+Microsoft Learn. Declaring variables. Disponível em: https://learn.microsoft.com/pt-br/office/vba/language/concepts/getting-started/declaring-variables
+. Acesso em: 31 mar. 2026.
 
-https://www.freecodecamp.org/portuguese/news/var-let-e-const-qual-e-a-diferenca/
+freeCodeCamp. var, let e const: qual é a diferença?. Disponível em: https://www.freecodecamp.org/portuguese/news/var-let-e-const-qual-e-a-diferenca
+. Acesso em: 31 mar. 2026.
 
-https://linguagemc.com.br/funcoes-e-escopo-de-variaveis/
+DIO. Variáveis em JavaScript. Disponível em: https://www.dio.me/articles/variaveis-javascript
+. Acesso em: 31 mar. 2026.
 
-https://www.dio.me/articles/variaveis-javascript
+IBM. Variable types. Disponível em: https://www.ibm.com/docs/pt-br/spss-statistics/cd?topic=charts-variable-types
+. Acesso em: 31 mar. 2026.
 
-https://www.ibm.com/docs/pt-br/spss-statistics/cd?topic=charts-variable-types
+Alura Fórum. Diferenças const, let e var. Disponível em: https://cursos.alura.com.br/forum/topico-diferencas-const-let-e-var-200251
+. Acesso em: 31 mar. 2026.
 
-https://cursos.alura.com.br/forum/topico-diferencas-const-let-e-var-200251
+iMasters. Escopos em JavaScript. Disponível em: https://imasters.com.br/desenvolvimento/escopos-em-javascript
+. Acesso em: 31 mar. 2026.
 
-https://imasters.com.br/desenvolvimento/escopos-em-javascript#:~:text=Escopo%20%C3%A9%20a%20acessibilidade%20de,do%20c%C3%B3digo%20%C3%A9%20o%20escopo.
+IBM. Arithmetic operators. Disponível em: https://www.ibm.com/docs/pt-br/cics-ts/5.6.0?topic=expressions-arithmetic-operators
+. Acesso em: 31 mar. 2026.
 
-https://www.ibm.com/docs/pt-br/cics-ts/5.6.0?topic=expressions-arithmetic-operators
+Google. Operadores relacionais principais no JavaScript. Disponível em: https://www.google.com/search?q=operadores+relacionais+principais+no+javascript
+. Acesso em: 31 mar. 2026.
 
-https://www.google.com/search?q=operadores+relacionais+principais+no+javascript&rlz=1C1RXQR_pt-PTBR1201BR1201&oq=operadores+relacionais+principais+no+javascript&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORigATIHCAEQIRigAdIBCDQwNjNqMGo5qAIAsAIB&sourceid=chrome&ie=UTF-8&safe=active&ssui=on
+Estratégia Concursos. Operadores lógicos fundamentais. Disponível em: https://www.estrategiaconcursos.com.br/blog/operadores-logicos-fundamentais
+. Acesso em: 31 mar. 2026.
 
-https://www.estrategiaconcursos.com.br/blog/operadores-logicos-fundamentais/
+Stack Overflow. Diferença entre operadores e em JavaScript. Disponível em: https://pt.stackoverflow.com/questions/3186/qual-a-diferen%C3%A7a-entre-operadores-e-em-javascript
+. Acesso em: 31 mar. 2026.
 
-https://pt.stackoverflow.com/questions/3186/qual-a-diferen%C3%A7a-entre-operadores-e-em-javascript
+Alura Fórum. Diferença entre != e !==. Disponível em: https://cursos.alura.com.br/forum/topico-qual-a-diferenca-de-e-achava-que-era-usada-somente-para-igual-e-para-diferente-132796
+. Acesso em: 31 mar. 2026.
 
-https://cursos.alura.com.br/forum/topico-qual-a-diferenca-de-e-achava-que-era-usada-somente-para-igual-e-para-diferente-132796#:~:text=resposta-,qual%20a%20diferen%C3%A7a%20de%20!=,para%20igual%20e%20=%20para%20diferente.&text=solu%C3%A7%C3%A3o!&text=s%C3%A3o%20operadores%20de%20compara%C3%A7%C3%A3o;%20comparam%20valores%20(e%20tipos).&text=compara%20se%20o%20valor%20de%20a%20%C3%A9%20igual%20ao%20valor%20de%20b.&text=compara%20se%20o%20valor%20de%20a%20%C3%A9%20diferente%20do%20valor,estas%20vari%C3%A1veis%20seriam%20comparativamente%20iguais.&text=J%C3%A1%20o%20terceiro%20e%20o,estas%20vari%C3%A1veis%20seriam%20comparativamente%20diferentes.&text=compara%20se%20o%20valor%20e,e%20ao%20tipo%20de%20b.
+DevMedia. JavaScript if else: estruturas condicionais. Disponível em: https://www.devmedia.com.br/javascript-if-else-criando-scripts-com-estruturas-condicionais/39686
+. Acesso em: 31 mar. 2026.
 
-https://www.devmedia.com.br/javascript-if-else-criando-scripts-com-estruturas-condicionais/39686
+Rocketseat. Estruturas condicionais Java. Disponível em: https://www.rocketseat.com.br/blog/artigos/post/estruturas-condicionais-java-guia-iniciantes
+. Acesso em: 31 mar. 2026.
 
-https://www.rocketseat.com.br/blog/artigos/post/estruturas-condicionais-java-guia-iniciantes
+DIO. Como usar switch case no Java. Disponível em: https://www.dio.me/articles/como-usar-switch-case-no-java
+. Acesso em: 31 mar. 2026.
 
-https://www.dio.me/articles/como-usar-switch-case-no-java
+MDN Web Docs. for. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for#:~:text=Usando%20for%20A%20declara%C3%A7%C3%A3o%20for%20come%C3%A7a%20declarando,vari%C3%A1vel%20i%20ap%C3%B3s%20cada%20passagem%20pelo%20loop.
+Formação Dev. while e do while. Disponível em: https://blog.formacao.dev/while-e-do-while
+. Acesso em: 31 mar. 2026.
 
-https://blog.formacao.dev/while-e-do-while/
+Rocketseat. Funções em JavaScript. Disponível em: https://www.rocketseat.com.br/blog/artigos/post/funcoes-em-javascript-guia-completo
+. Acesso em: 31 mar. 2026.
 
-https://www.rocketseat.com.br/blog/artigos/post/funcoes-em-javascript-guia-completo
+PET Computação UFSC. Defining functions in Java. Disponível em: https://pet-comp-ufsc.github.io/tutorials/langs/java/functions/defining.html
+. Acesso em: 31 mar. 2026.
 
-https://pet-comp-ufsc.github.io/tutorials/langs/java/functions/defining.html
+IBM. Java functions parameter style. Disponível em: https://www.ibm.com/docs/pt-br/db2/11.5.x?topic=routines-parameter-style-java-functions
+. Acesso em: 31 mar. 2026.
 
-https://www.ibm.com/docs/pt-br/db2/11.5.x?topic=routines-parameter-style-java-functions
+MDN Web Docs. return. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/return
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/return
+MDN Web Docs. Document. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/API/Document
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/API/Document
+MDN Web Docs. querySelector. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector
+MDN Web Docs. HTMLInputElement checked. Disponível em: https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/checked
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/checked
+MDN Web Docs. DOM scripting. Disponível em: https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/DOM_scripting
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/DOM_scripting
+MDN Web Docs. addEventListener. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+Built In. querySelector vs getElementById. Disponível em: https://builtin.com/articles/queryselector-vs-getelementbyid
+. Acesso em: 31 mar. 2026.
 
-https://builtin.com/articles/queryselector-vs-getelementbyid#:~:text=Explica%C3%A7%C3%A3o%20do%20m%C3%A9todo%20GetElementById()&text=atributo%20%60ID%60.-,Ela%20retorna%20o%20elemento%20com%20o%20ID%20especificado.,em%20todos%20os%20navegadores%20modernos.
+Alura Fórum. Sobre value. Disponível em: https://cursos.alura.com.br/forum/topico-sobre-value-257132
+. Acesso em: 31 mar. 2026.
 
-https://cursos.alura.com.br/forum/topico-sobre-value-257132
+MDN Web Docs. textContent. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent
+. Acesso em: 31 mar. 2026.
 
-https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent#:~:text=textContent%20obt%C3%A9m%20o%20conte%C3%BAdo%20de,os%20elementos%20de%20um%20n%C3%B3.
-
-https://www.alura.com.br/artigos/eventos-do-dom?srsltid=AfmBOopDIF3i3UJ4n3sy5dkrwaYw9M-2IU741SACvTflsr79guOKr-6a
+Alura. Eventos do DOM. Disponível em: https://www.alura.com.br/artigos/eventos-do-dom
+. Acesso em: 31 mar. 2026
