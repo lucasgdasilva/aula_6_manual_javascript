@@ -8,7 +8,7 @@ Turma: T TDES 2024/1 M6
 
 - O que é JavaScript?
 
-JavaScript é uma linguagem de programação amplamente utilizada em todo o mundo, que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc, isso é feito graças ao JavaScript
+JavaScript é uma linguagem de programação amplamente utilizada em todo o mundo, que permite a você implementar itens complexos em páginas web. Toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc, isso é feito graças ao JavaScript
 
 - Para que JavaScript serve em páginas web?
 
@@ -18,7 +18,7 @@ O JavaScript serve para tornar páginas web interativas e dinâmicas, indo além
 
 O JavaScript (JS) complementa o HTML (estrutura) e o CSS (estilo) adicionando comportamento, interatividade e dinamismo às páginas web. Enquanto o HTML define o esqueleto e o CSS a aparência, o JS atua como o "músculo", manipulando o DOM (Document Object Model) para alterar elementos e estilos em tempo real.
 
-# 2. Formas de uso do HTML
+# 2. Formas de uso no HTML
 
 - JavaScript escrito dentro da própria página HTML.
 
@@ -27,7 +27,7 @@ Exemplo encontra-se dentro da pasta "01_script_no_html".
 
 - JavaScript em arquivo separado (script.js).
 
-Para utilizar JavaScript em um arquivo separado (script.js), crie um arquivo com a extensão .js e vincule-o no HTML usando a tag <script src="script.js"></script> antes do fechamento do </body>. Isso separa o código (melhor organização/manutenção), permite o reuso em múltiplas páginas e melhora o desempenho. 
+Para utilizar JavaScript em um arquivo separado (script.js), crie um arquivo com a extensão .js e vincule-o no HTML usando as tags próprias. Isso separa o código (melhor organização/manutenção), permite o reuso em múltiplas páginas e melhora o desempenho. 
 Exemplo encontra-se dentro da pasta "02_script_externo".
 
 
@@ -163,17 +163,35 @@ O document no JavaScript é um objeto global que representa a página HTML carre
 
 - getElementById()
 
-seu
+Ela retorna o elemento com o ID especificado. Os IDs devem ser únicos em uma página, portanto, getElementById() sempre retornará um elemento ou `null` se não houver nenhum elemento correspondente.
 
 - querySelector()
 
-meu
+O querySelector()()é um método do JavaScript que retorna o primeiro elemento dentro do documento (DOM) que corresponde a um seletor CSS específico (como#id, .classeou tag) [1, 2]. Se nenhum elemento for encontrado, ele retornanull`. Ele é ideal para selecionar elementos de forma flexível.
 
 - .value
 
+ Manipulação de formulários e elementos de entrada (input, textarea, select) no DOM (Document Object Model). Ela permite ler ou alterar o valor contido nesses campos, possibilitando páginas interativas e dinâmicas.
+
+- .checked
+
+A propriedade .checked no JavaScript é uma forma de verificar ou alterar o estado de elementos de formulário, especificamente caixas de seleção (checkbox) e botões de rádio (radio), indicando se estão marcados (true) ou desmarcados (false). Ela é uma propriedade booleana do objeto HTMLInputElement, amplamente usada para interações dinâmicas.
+
+- .textContent
+
+ Obtém o conteúdo de todos os elementos, incluindo os elementos <script> e <style>.
+
+- .style
+
+meu
+
+- classList
+
 seu
 
-- 
+- addEventListener()
+
+meu
 
 
 
@@ -228,5 +246,7 @@ https://www.ibm.com/docs/pt-br/db2/11.5.x?topic=routines-parameter-style-java-fu
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/return
 
 https://developer.mozilla.org/pt-BR/docs/Web/API/Document
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector
 
 
