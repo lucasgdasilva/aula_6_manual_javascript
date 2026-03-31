@@ -79,10 +79,15 @@ Exemplos relacionados aos escopos também encontram-se na pasta "03_tipos_variav
 - Operadores aritméticos principais
 
 Adição (+): Soma dois valores.
+
 Subtração (-): Subtrai o segundo valor do primeiro.
+
 Multiplicação (* ou ×): Multiplica dois valores.
+
 Divisão (/ ou ÷): Divide o primeiro valor pelo segundo.
+
 Módulo/Resto (% ou mod): Retorna o resto de uma divisão inteira.
+
 Exponenciação (^ ou **): Eleva um número a uma potência.
 
 - Operadores relacionais principais
@@ -93,8 +98,10 @@ Os principais operadores relacionais (ou de comparação) no JavaScript, que ret
 
 Negação (NÃO / NOT / 
  / !): Inverte o valor lógico. Se a proposição é Verdadeira, torna-se Falsa, e vice-versa 
+
 Conjunção (E / AND / 
  / &&): Resulta em Verdadeiro apenas se todas as condições analisadas forem verdadeiras.
+
 Disjunção (OU / OR / 
  / ||): Resulta em Verdadeiro se pelo menos uma das condições for verdadeira
 
@@ -107,6 +114,7 @@ Disjunção (OU / OR /
 - Diferença entre != e !==
 
 != (Diferente): Compara se dois valores são diferentes, mas tenta converter os tipos para que fiquem iguais antes de comparar. Exemplo: 5 != "5" resulta em false porque, para o operador, os valores são considerados iguais.
+
 !== (Estritamente Diferente): Compara se dois valores são diferentes ou se os tipos de dados são diferentes. É uma verificação mais rigorosa. Exemplo: 5 !== "5" resulta em true porque, embora o valor seja o mesmo, um é número e o outro é uma string.
 
 # 5. Estruturas condicionais
@@ -181,7 +189,7 @@ A propriedade .checked no JavaScript é uma forma de verificar ou alterar o esta
 
 - .textContent
 
- Obtém o conteúdo de todos os elementos, incluindo os elementos <script> e <style>.
+ Obtém o conteúdo de todos os elementos, incluindo os elementos "script" e "style".
 
 - .style
 
@@ -189,8 +197,8 @@ A propriedade .style no JavaScript permite modificar o CSS inline de elementos H
 
 - classList
 
-seu lerdinho
-
+É a forma mais moderna, eficiente e prática de manipular as classes CSS de um elemento HTML diretamente no DOM.
+ 
 - addEventListener()
 
 O método addEventListener() em JavaScript é utilizado para anexar um manipulador de eventos (uma função de callback) a um elemento específico no DOM (Document Object Model). Ele "escuta" a ocorrência de um evento, como um clique ('click'), e executa a função definida quando o evento acontece. 
@@ -256,3 +264,11 @@ https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/checked
 https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/DOM_scripting
 
 https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+
+https://builtin.com/articles/queryselector-vs-getelementbyid#:~:text=Explica%C3%A7%C3%A3o%20do%20m%C3%A9todo%20GetElementById()&text=atributo%20%60ID%60.-,Ela%20retorna%20o%20elemento%20com%20o%20ID%20especificado.,em%20todos%20os%20navegadores%20modernos.
+
+https://cursos.alura.com.br/forum/topico-sobre-value-257132
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/Node/textContent#:~:text=textContent%20obt%C3%A9m%20o%20conte%C3%BAdo%20de,os%20elementos%20de%20um%20n%C3%B3.
+
+https://www.alura.com.br/artigos/eventos-do-dom?srsltid=AfmBOopDIF3i3UJ4n3sy5dkrwaYw9M-2IU741SACvTflsr79guOKr-6a
