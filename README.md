@@ -165,11 +165,15 @@ O document no JavaScript é um objeto global que representa a página HTML carre
 
 seu
 
+- querySelector()
 
+meu
 
+- .value
 
+seu
 
-
+- 
 
 
 
