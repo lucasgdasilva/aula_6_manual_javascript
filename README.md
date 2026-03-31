@@ -8,7 +8,7 @@ Turma: T TDES 2024/1 M6
 
 - O que é JavaScript?
 
-JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc.
+JavaScript é uma linguagem de programação amplamente utilizada em todo o mundo, que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc, isso é feito graças ao JavaScript
 
 - Para que JavaScript serve em páginas web?
 
@@ -26,9 +26,15 @@ O JavaScript pode ser implementado dentro de um documento HTML de diversas manei
 
 - JavaScript em arquivo separado (script.js).
 
+Para utilizar JavaScript em um arquivo separado (script.js), crie um arquivo com a extensão .js e vincule-o no HTML usando a tag <script src="script.js"></script> antes do fechamento do </body>. Isso separa o código (melhor organização/manutenção), permite o reuso em múltiplas páginas e melhora o desempenho.
+
+- Como declarar variáveis
 
 
-Referências:
+# Referências:
 
 https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Scripting/What_is_JavaScript
+
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions
+
+https://vivendodeprogramacao.com.br/como-separar-o-javascript-do-html#:~:text=Guia%20para%20Iniciantes-,Por%20que%20separar%20o%20JavaScript%20do%20HTML?,em%20cache%2C%20melhorando%20o%20desempenho.
