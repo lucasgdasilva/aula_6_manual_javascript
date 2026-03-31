@@ -1,16 +1,10 @@
-# aula_6_manual_javascript
-
-SENAI JOINVILLE
-
-CURSO TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS
+# Manual de uso - JavaScript
 
 Estudantes: Guilherme Schroeder, Lucas Gabriel da Silva e Lukas Fischer Stolle.
 
 Turma: T TDES 2024/1 M6
 
-Manual de estudos para JavaScript
-
-1. Introdução
+# 1. Introdução
 
 - O que é JavaScript?
 
@@ -24,9 +18,15 @@ O JavaScript serve para tornar páginas web interativas e dinâmicas, indo além
 
 O JavaScript (JS) complementa o HTML (estrutura) e o CSS (estilo) adicionando comportamento, interatividade e dinamismo às páginas web. Enquanto o HTML define o esqueleto e o CSS a aparência, o JS atua como o "músculo", manipulando o DOM (Document Object Model) para alterar elementos e estilos em tempo real.
 
-2. Formas de uso do HTML
+# 2. Formas de uso do HTML
+
+- JavaScript escrito dentro da própria página HTML.
 
 O JavaScript pode ser implementado dentro de um documento HTML de diversas maneiras. Por exemplo, ele pode ser implementado dentro do próprio código HTML, ou pode ser escrito em um arquivo separado.
+
+- JavaScript em arquivo separado (script.js).
+
+
 
 Referências:
 
