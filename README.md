@@ -128,6 +128,7 @@ A estrutura if em JavaScript é uma condicional que executa um bloco de código 
 A estrutura if-else no Java é uma instrução condicional usada para tomar decisões. Ela avalia uma expressão booleana (verdadeira ou falsa): se for verdadeira, executa o bloco if; se for falsa, executa o bloco else.
 
 - switch
+
 A estrutura switch no Java é uma forma eficiente de controle de fluxo, usada para selecionar um entre vários blocos de código com base na igualdade de uma única expressão (variável).
 
 # 6. Estruturas de repetição
@@ -139,8 +140,11 @@ O loop for no JavaScript é uma estrutura de repetição usada para executar um 
 - while
 
 Verificação: O programa verifica a condição no início.
+
 Execução: Se a condição for verdadeira, o bloco de código é executado.
+
 Repetição: Após a execução, o programa volta ao passo 1.
+
 Encerramento: Se a condição for falsa, o loop é interrompido e o programa segue adiante
 
 # 7. Funções
@@ -151,7 +155,7 @@ Uma função em JavaScript é um bloco de código reutilizável, projetado para 
 
 - Como declarar uma função
 
-Para declarar uma função (ou método) em Java, utilize a sintaxe: modificador tipoRetorno nomeDaFuncao(parametros) { corpo }. Ela deve ser definida dentro de uma classe, usando camelCase, com modificadores como public/private e static se for independente de objeto. Use void para funções sem retorno.
+Para declarar uma função (ou método) em Java, utilize a sintaxe: modificador tipoRetorno nomeDaFuncao(parametros) { corpo }. Ela deve ser definida dentro de uma classe, de preferência usando camelCase, com modificadores como public/private e static se for independente de objeto. Use void para funções sem retorno.
 
 - Como chamar uma função
 
