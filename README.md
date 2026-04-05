@@ -2,7 +2,7 @@
 
 Estudantes: Guilherme Schroeder, Lucas Gabriel da Silva e Lukas Fischer Stolle.
 
-Turma: T TDES 2024/1 M6 -
+Turma: T TDES 2024/1 M6 
 
 # 1. Introdução
 
