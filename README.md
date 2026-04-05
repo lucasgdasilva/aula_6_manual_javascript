@@ -28,6 +28,7 @@ Exemplo encontra-se dentro da pasta "01_script_no_html".
 - JavaScript em arquivo separado (script.js).
 
 Para utilizar JavaScript em um arquivo separado (script.js), crie um arquivo com a extensão .js e vincule-o no HTML usando as tags próprias. Isso separa o código (melhor organização/manutenção), permite o reuso em múltiplas páginas e melhora o desempenho. 
+
 Exemplo encontra-se dentro da pasta "02_script_externo".
 
 
@@ -49,7 +50,7 @@ let: Escopo de bloco {} (como if, loops), não pode ser redeclarado, mas pode se
 
 const: Escopo de bloco, não pode ser redeclarado nem reatribuído (valor constante).
 
-Exemplos encontram-se na pasta "03_tipos_variaveis"
+Exemplos encontram-se na pasta "03_tipos_variaveis".
 
 - Quando cada uma pode ser usada
 
@@ -71,7 +72,7 @@ Escopo é a acessibilidade de objetos, variáveis e funções em diferentes part
 
 O escopo de bloco no JavaScript restringe variáveis declaradas com let ou const dentro de chaves {} (como if, for, while) ao seu próprio bloco, impedindo o acesso externo. Ao contrário da var, que vaza para fora do bloco, o escopo de bloco melhora a organização e evita conflitos de nomes.
 
-Exemplos relacionados aos escopos também encontram-se na pasta "03_tipos_variaveis"
+Exemplos relacionados aos escopos também encontram-se na pasta "03_tipos_variaveis".
 
 
 # 4. Operadores, comparações e lógica
@@ -117,6 +118,8 @@ Disjunção (OU / OR /
 
 !== (Estritamente Diferente): Compara se dois valores são diferentes ou se os tipos de dados são diferentes. É uma verificação mais rigorosa. Exemplo: 5 !== "5" resulta em true porque, embora o valor seja o mesmo, um é número e o outro é uma string.
 
+Exemplos relacionados aos operadores lógicos, comparações e operadores encontram-se na pasta "04_comparacoes_logica".
+
 # 5. Estruturas condicionais
 
 - if
@@ -130,6 +133,8 @@ A estrutura if-else no Java é uma instrução condicional usada para tomar deci
 - switch
 
 A estrutura switch no Java é uma forma eficiente de controle de fluxo, usada para selecionar um entre vários blocos de código com base na igualdade de uma única expressão (variável).
+
+Exemplos relacionados às estruturas condicionais encontram-se na pasta "05_estruturas_condicionais".
 
 # 6. Estruturas de repetição
 
@@ -145,7 +150,9 @@ Execução: Se a condição for verdadeira, o bloco de código é executado.
 
 Repetição: Após a execução, o programa volta ao passo 1.
 
-Encerramento: Se a condição for falsa, o loop é interrompido e o programa segue adiante
+Encerramento: Se a condição for falsa, o loop é interrompido e o programa segue adiante.
+
+Exemplos relacionados às estruturas de repetição encontram-se na pasta "06_estruturas_repeticao".
 
 # 7. Funções
 
@@ -168,6 +175,8 @@ Permitem receber dados externos para processamento. Eles são declarados entre p
 - Função com retorno
 
 A declaração return finaliza a execução de uma função e especifica os valores que devem ser retonados para onde a função foi chamada.
+
+Exemplos relacionados à funções encontram-se na pasta "07_funcoes".
 
 # 8.  Manipulação de página com JavaScript
 
